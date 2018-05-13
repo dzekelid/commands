@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Describe Commands
   version: 1.0.0
+  description: Describes the results of specified commands.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCommands&k=1:
+  /?Action=DescribeCommands:
     get:
       summary: ' Describe Commands '
       description: Describes the results of specified commands
