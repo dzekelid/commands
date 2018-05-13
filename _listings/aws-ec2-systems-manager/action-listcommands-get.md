@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Systems Manager API
+  title: Amazon EC2 Systems Manager API List Commands
   version: 1.0.0
+  description: Lists the commands requested by users of the AWS account.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListCommands&k=1:
+  /?Action=ListCommands:
     get:
       summary: ' List Commands '
       description: Lists the commands requested by users of the AWS account
