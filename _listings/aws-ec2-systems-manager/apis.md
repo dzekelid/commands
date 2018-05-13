@@ -37,7 +37,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/commands/master/_listings/aws-ec2-systems-manager/action-listcommands-get.md
+- name: Amazon EC2 Systems Manager API List Commands
+  description: Lists the commands requested by users of the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: http:://{host}//
+  tags: Commands
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/aws-ec2-systems-manager/action-listcommands-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/ec2/systems-manager/faqs/
+- type: x-getting-started
+  url: http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/systems-manager.html
+- type: x-website
+  url: https://aws.amazon.com/ec2/systems-manager/
 - type: x-documentation
   url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
 - type: x-faq
