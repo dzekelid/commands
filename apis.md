@@ -4,7 +4,7 @@ description: This is a repository of commands APIs, self-contained as a Github r
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/commands.png
 created: "2018-02-24"
-modified: "2018-05-20"
+modified: "2018-06-18"
 url: http://commands.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -16,6 +16,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/aws-ec2-systems-manager/apis.yaml
 - name: Mattermost
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/mattermost/apis.yaml
+- name: Kaltura
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/kaltura/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist

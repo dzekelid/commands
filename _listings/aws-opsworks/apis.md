@@ -8,10 +8,10 @@ description: AWS OpsWorks is a configuration management service that uses Chef, 
   OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Commands
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,7 +21,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeCommands
-  tags: Commands
+  tags: Describe,Commands
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/aws-opsworks/actiondescribecommands-get-openapi.md

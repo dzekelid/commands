@@ -14,10 +14,10 @@ description: Amazon EC2 Systems Manager is a management service that helps you a
   no cost to manage both your EC2 and on-premises resources.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Commands
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/aws-ec2-systems-manager/apis.md
 specificationVersion: "0.14"
 apis:

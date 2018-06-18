@@ -35,5 +35,6 @@ paths:
         200:
           description: OK
       tags:
+      - Describe
       - Commands
 ---
