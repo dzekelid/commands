@@ -19,29 +19,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /commands:
-    get:
-      summary: List commands for a team
-      description: |-
-        List commands for a team.
-        ##### Permissions
-        `manage_slash_commands` if need list custom commands.
-      operationId: list-commands-for-a-team-permissionsmanage-slash-commands-if-need-list-custom-commands
-      x-api-path-slug: commands-get
-      parameters:
-      - in: query
-        name: custom_only
-        description: To get only the custom commands
-      - in: query
-        name: team_id
-        description: The team id
-      responses:
-        200:
-          description: OK
-      tags:
-      - List
-      - Commandsa
-      - Team
   /teams/{team_id}/commands/autocomplete:
     get:
       summary: List autocomplete commands
