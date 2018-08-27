@@ -7,11 +7,118 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apic
 x-kinRank: "7"
 x-alexaRank: "876355"
 tags: Commands
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Checks Command API - Checks Command
+  x-api-slug: checkscommand-post
+  description: Creates a new Command check.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommand-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommand-post-openapi.md
+- name: Checks Command API - Checks Command
+  x-api-slug: checkscommandv2-post
+  description: Creates a new Command check (version 2).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandv2-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandv2-post-openapi.md
+- name: Checks Command API - Checks Command
+  x-api-slug: checkscommandv2checkid-put
+  description: Updates a command check (version 2).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandv2checkid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandv2checkid-put-openapi.md
+- name: Checks Command API - Checks Command
+  x-api-slug: checkscommandcheckid-put
+  description: Updates a command check.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandcheckid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandcheckid-put-openapi.md
+- name: Checks Command API - Checks Command Categories
+  x-api-slug: checkscommandcategories-get
+  description: Gets a list of all command check categories that are available for
+    you as customer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandcategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandcategories-get-openapi.md
+- name: Checks Command API - Checks Command Categories
+  x-api-slug: checkscommandv2categories-get
+  description: Gets a list of all command check (version 2) categories that are available
+    for you as customer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandv2categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandv2categories-get-openapi.md
+- name: Checks Command API - Checks Command Locations
+  x-api-slug: checkscommandlocations-get
+  description: Gets a list of all locations that are available for Command checks.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandlocations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandlocations-get-openapi.md
+- name: Checks Command API - Checks Command Locations
+  x-api-slug: checkscommandv2locations-get
+  description: Gets a list of all locations that are available for Command checks
+    (version 2).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandv2locations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commands/master/_listings/apica/checkscommandv2locations-get-openapi.md
 - name: Checks Command API - Checks Command
   x-api-slug: checkscommand-post
   description: Creates a new Command check.

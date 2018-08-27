@@ -6,12 +6,14 @@ info:
   title: Checks Command API Checks Command Locations
   version: 1.0.0
   description: Gets a list of all locations that are available for Command checks.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/checks/command ':
     ' post ':

@@ -6,12 +6,14 @@ info:
   title: Checks Command API Checks Command
   version: 1.0.0
   description: Creates a new Command check.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/checks/command ':
     ' post ':

@@ -7,12 +7,14 @@ info:
   version: 1.0.0
   description: Gets a list of all locations that are available for Command checks
     (version 2).
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/checks/command ':
     ' post ':

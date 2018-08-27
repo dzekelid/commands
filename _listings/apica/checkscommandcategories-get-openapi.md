@@ -7,12 +7,14 @@ info:
   version: 1.0.0
   description: Gets a list of all command check categories that are available for
     you as customer.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/checks/command ':
     ' post ':
